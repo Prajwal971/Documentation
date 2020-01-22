@@ -1,0 +1,3 @@
+# Event bubbling
+__Event bubbling__  is a type of of event propagation where when an event occurs in an element inside another element, and both elements have registered a handle for that event.The event propagation mode determines in which order the elements receive the event.
+Events that are bubbling upward through the tree will not trigger a listener designated to use capture. Event bubbling and capturing are two ways of propagating events which occur in an element that is nested within another element, when both elements have registered a handle for that event.

@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+   .divstyle{
+      display:table-cell;
+      border: 2px solid black;
+      padding: 20px;
+      text-align: center;
+   }
+</style>
+</head>
+<body>
+   <div id = "div1" class="divstyle">
+   div1
+   <div id = "div2" class="divstyle">
+   div2
+   <div id = "div3" class="divstyle">
+   div3
+<script>
+   var divs = document.getElementsByTagName("div");
+   for(var i = 0; i<divs.length; i++){
+      divs[i].addEventListener("click",clickhandler,true );
+   }
+   function clickhandler() {
+      alert(this.getAttribute("id") + "event got handled");
+   }
+</script>
+</body>
+</html>

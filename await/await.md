@@ -1,0 +1,2 @@
+# Await
+The __await__ function causes the async function to pause until a promise is rejected or fullifilled.If the Promise is rejected, the await expression throws the rejected value.An await can split execution flow, allowing the caller of the await's function to resume execution before the deferred continuation of the await's function.i.e.The await operator is used to wait for a Promise. It can only be used inside an async function.

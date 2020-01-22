@@ -1,0 +1,3 @@
+# __Prototype__ in Javascript
+**Prototype is an object where we can attach method and properties which allows rest of the method to inherit these method.**
+Javascript is a prototype based language ,when ever a function is created the JS interpretor creates a __prototype property__ inside a function where methods and properties are attached in a prototype object, thus allowing all the other object to inherit these methods and properties. 

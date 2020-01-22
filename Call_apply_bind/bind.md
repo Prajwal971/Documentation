@@ -1,0 +1,3 @@
+# bind() or Function.prototype.bind()
+bind() returns a bound function that, when executed later, will have the correct context ("this") for calling the original function. So bind() can be used when the function needs to be called later in certain events when it's useful. To get a grasp of "this" in JavaScript, read Understanding "This" in JavaScript. \
+ Functions provide a built-in method _bind_ that allows to fix __this__.

@@ -1,0 +1,2 @@
+# apply()  or Function.prototype.apply()
+The apply() method calls a function with a given __this__ value, and arguments provided as an array (or an array-like object).\The apply() method is similar to the call() method.\The apply() method takes arguments as an array.With apply,  an array literal can also be used.We can also use __apply__ to append an array to another.

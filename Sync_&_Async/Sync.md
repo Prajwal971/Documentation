@@ -1,0 +1,3 @@
+# Synchronous
+Javascript  is _synchronous_ execution and executes command one at a time .i.e line by line is getting executed.Synchronous means one at a time i.e. one line of code is being executed at time in order the code appears. So in JavaScript one thing is happening at a time.
+If we are executing a JavaScript block of code on a page then no other JavaScript on that page will currently be executed.JavaScript is single-threaded, and all the time its on a normal synchronous code-flow execution.
